@@ -116,7 +116,7 @@ define(["utils", "settings"], function (utils, settings) {
                 } else {
                     //apiquickRepliesHtml+=	`<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='assets/Images/blank.ico'/>`
                     if (qReply[i].title.trim().length) {
-                        apiquickRepliesHtml += `<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='assets/Images/blank.ico'/><p class="list-group-item-quick-reply-space">${qReply[i].title}</p>`
+                        apiquickRepliesHtml += `<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='../../assets/Images/blank.ico'/><p class="list-group-item-quick-reply-space">${qReply[i].title}</p>`
                     }
 
                 }
@@ -167,7 +167,7 @@ define(["utils", "settings"], function (utils, settings) {
                 } else {
                     //apiquickRepliesHtml+=	`<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='assets/Images/blank.ico'/>`
                     if (qReply[i].title.trim().length) {
-                        apiquickRepliesHtml += `<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='assets/Images/blank.ico'/><p class="list-group-item-quick-reply-space">${qReply[i].title}</p>`
+                        apiquickRepliesHtml += `<img style="border-radius:50%;float: left;margin-right: 10px;" width="40" height="40" src='../../assets/Images/blank.ico'/><p class="list-group-item-quick-reply-space">${qReply[i].title}</p>`
                     }
 
                 }
@@ -175,7 +175,7 @@ define(["utils", "settings"], function (utils, settings) {
 
                 if (qReply[i].replies.indexOf("Risk Class") != -1) {
                     for (let j = 0; j < qReply[i].replies.length; j++) {
-                            apiquickRepliesHtml += `<button type="button"  class="btn btn-quick .pmd-btn-fab apiQuickreplybtnPayload" data-apiquickRepliesPayload="${qReply[i].replies[j]}"><img src="./assets/Images/queryTypes/${qReply[i].replies[j].replace(/ /g, '')}.svg" class="img-responsive quick-reply-icon"> <div class="quick-reply-button-text">${qReply[i].replies[j]}</div></button>`
+                            apiquickRepliesHtml += `<button type="button"  class="btn btn-quick .pmd-btn-fab apiQuickreplybtnPayload" data-apiquickRepliesPayload="${qReply[i].replies[j]}"><img src="../../assets/Images/queryTypes/${qReply[i].replies[j].replace(/ /g, '')}.svg" class="img-responsive quick-reply-icon"> <div class="quick-reply-button-text">${qReply[i].replies[j]}</div></button>`
                     }
                 } else {
                     for (let j = 0; j < qReply[i].replies.length; j++) {
