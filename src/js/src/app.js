@@ -73,9 +73,7 @@ define(['jquery', 'settings', 'apiService', 'utils'], function ($, config, apiSe
 		});
 		// //Chatbox Send message
 		$("#btn-input").keypress(function (e) {
-			console.log('POLL', $('#btn-input').val());
 			if (e.which == 13) {
-
 				sendMessage($(this), e);
 				$(".emoji-wysiwyg-editor").html('');
 			}
@@ -90,7 +88,8 @@ define(['jquery', 'settings', 'apiService', 'utils'], function ($, config, apiSe
 		});
 
 		$(document).on('click', '.pdfClass', function (e) {
-			$(parent.document).find("body div#fundModal").modal('show');
+			console.log('ARRW', $(parent.document).find("body div#fundModal"));
+			$(parent.document).find("body div#fundModal").trigger('focus');
 			e.preventDefault();
 			return;
 		});

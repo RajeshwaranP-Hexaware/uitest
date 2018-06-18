@@ -1,7 +1,7 @@
-* -------------------------------------------------------------------
+/* -------------------------------------------------------------------
 Copyright (c) 2017-2017 Hexaware Technologies
 This file is part of the Innovation LAB - Offline Bot.
-------------------------------------------------------------------- */
+------------------------------------------------------------------- 
 /* Bootstrap css */
 
 
@@ -781,8 +781,8 @@ iframe#_hjRemoteVarsFrame {
   position: fixed;
   right: 2%;
   height: 550px;
-  min-height: 550px;
-  max-height: 550px;
+  min-height: 540px;
+  max-height: 540px;
   bottom: 11%;
   overflow: hidden;
   padding: 0 15px;
@@ -814,4 +814,8 @@ iframe#_hjRemoteVarsFrame {
   position: absolute;
   top: 11px;
   right: 16px;
+}
+
+.modalOpacity {
+  opacity: 1 !important
 }
