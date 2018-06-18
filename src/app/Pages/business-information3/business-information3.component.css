@@ -1,0 +1,790 @@
+.contentHeader {
+    border-bottom: 1px solid #e5e5e5;
+    height: 133px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contentTitle {
+    font: bold 24px 'Roboto', sans-serif;
+    margin: 30px 0 20px 30px;
+    color: #4D4C4C;
+  }
+
+  .contentSubtitle {
+    font: normal 16px 'Roboto', sans-serif;
+    margin: 0 0 30px 30px;
+    color: #aab0b2;
+  }
+.padding-left-30
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+.bold
+  {
+    font-weight: 700;
+    color:#333;
+  }
+.margin-top-30
+  {
+    margin-top: 30px;
+  }
+  .margin-bottom-50
+  {
+    margin-bottom: 50px;
+  }
+  .margin-bottom-30
+  {
+    margin-bottom:30px;
+  }
+  .margin-bottom-40
+  {
+    margin-bottom: 40px;
+  }
+  .margin-bottom-20
+  {
+    margin-bottom: 20px;
+  }
+.padding-left-30
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+.main-content
+{
+    width:90%;
+    font:normal 16px 'Roboto', sans-serif;
+    color:#7f7e7e;
+    font-weight: 400;
+    height: 130vh;
+    overflow-y: scroll;
+}
+.main-content label{
+    color:#4D4C4C;
+    font-size:16px;
+    font-weight: 500;
+}
+.main-content h3{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:#000;
+    font-family:'Roboto', sans-serif;
+}
+.txtright
+{
+    text-align: right;
+}
+.required
+{
+    color:#ff0000;
+}
+.bakeryproducts
+{
+  background:url('../../../assets/Images/manufacturing/bakeryproducts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.bakeryproducts:hover
+{
+  background:url('../../../assets/Images/manufacturing/bakeryproducts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.candy_confectionery
+{
+  background:url('../../../assets/Images/manufacturing/candy_confectionery.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.candy_confectionery:hover
+{
+  background:url('../../../assets/Images/manufacturing/candy_confectionery_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:45%;
+}
+.cannedspecialties
+{
+  background:url('../../../assets/Images/manufacturing/cannedspecialties.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:45%;
+}
+.cannedspecialties:hover
+{
+  background:url('../../../assets/Images/manufacturing/cannedspecialties_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.cheesemanufacturing
+{
+  background:url('../../../assets/Images/manufacturing/cheesemanufacturing.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.cheesemanufacturing:hover
+{
+  background:url('../../../assets/Images/manufacturing/cheesemanufacturing_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.chocolate_cocoa
+{
+  background:url('../../../assets/Images/manufacturing/chocolate_cocoa.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.chocolate_cocoa:hover
+{
+  background:url('../../../assets/Images/manufacturing/chocolate_cocoa_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.coffeeroastedmanufacturing
+{
+  background:url('../../../assets/Images/manufacturing/coffeeroastedmanufacturing.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.coffeeroastedmanufacturing:hover
+{
+  background:url('../../../assets/Images/manufacturing/coffeeroastedmanufacturing_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.candy_confectionery
+{
+  background:url('../../../assets/Images/manufacturing/candy_confectionery.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.candy_confectionery:hover
+{
+  background:url('../../../assets/Images/manufacturing/candy_confectionery_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.creamerybutter
+{
+  background:url('../../../assets/Images/manufacturing/creamerybutter.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.creamerybutter:hover
+{
+  background:url('../../../assets/Images/manufacturing/creamerybutter_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.dairyproducts
+{
+  background:url('../../../assets/Images/manufacturing/dairyproducts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.dairyproducts:hover
+{
+  background:url('../../../assets/Images/manufacturing/dairyproducts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.dried_dehydratedfruits
+{
+  background:url('../../../assets/Images/manufacturing/dried_dehydratedfruits.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.dried_dehydratedfruits:hover
+{
+  background:url('../../../assets/Images/manufacturing/dried_dehydratedfruits_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.flavoringsyrups_extracts
+{
+  background:url('../../../assets/Images/manufacturing/flavoringsyrups_extracts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.flavoringsyrups_extracts:hover
+{
+  background:url('../../../assets/Images/manufacturing/flavoringsyrups_extracts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.foodproducts
+{
+  background:url('../../../assets/Images/manufacturing/foodproducts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.foodproducts:hover
+{
+  background:url('../../../assets/Images/manufacturing/foodproducts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.foodproductswithfry
+{
+  background:url('../../../assets/Images/manufacturing/foodproductswithfry.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.foodproductswithfry:hover
+{
+  background:url('../../../assets/Images/manufacturing/foodproductswithfry_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruit_vegetablepapercontainers
+{
+  background:url('../../../assets/Images/manufacturing/fruit_vegetablepapercontainers.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruit_vegetablepapercontainers:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruit_vegetablepapercontainers_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitdrinks_carbonated_glass
+{
+  background:url('../../../assets/Images/manufacturing/fruitdrinks_carbonated_glass.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitdrinks_carbonated_glass:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruitdrinks_carbonated_glass_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitdrinksplasticcontainers
+{
+  background:url('../../../assets/Images/manufacturing/fruitdrinksplasticcontainers.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitdrinksplasticcontainers:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruitdrinksplasticcontainers_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.flavoringsyrups_extracts
+{
+  background:url('../../../assets/Images/manufacturing/flavoringsyrups_extracts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.flavoringsyrups_extracts:hover
+{
+  background:url('../../../assets/Images/manufacturing/flavoringsyrups_extracts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitorvegetablejuice
+{
+  background:url('../../../assets/Images/manufacturing/fruitorvegetablejuice.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruitorvegetablejuice:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruitorvegetablejuice_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetables_jams_jellies
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetables_jams_jellies.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetables_jams_jellies:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetables_jams_jellies_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetables_pickledetc
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetables_pickledetc.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetables_pickledetc:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetables_pickledetc_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetablesfrozen
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetablesfrozen.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.fruits_vegetablesfrozen:hover
+{
+  background:url('../../../assets/Images/manufacturing/fruits_vegetablesfrozen_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.icecream_frozendesserts
+{
+  background:url('../../../assets/Images/manufacturing/icecream_frozendesserts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.icecream_frozendesserts:hover
+{
+  background:url('../../../assets/Images/manufacturing/icecream_frozendesserts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.macaroni_cappellinietc
+{
+  background:url('../../../assets/Images/manufacturing/macaroni_cappellinietc.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.macaroni_cappellinietc:hover
+{
+  background:url('../../../assets/Images/manufacturing/macaroni_cappellinietc_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.maltbeverage_microbreweries
+{
+  background:url('../../../assets/Images/manufacturing/maltbeverage_microbreweries.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.maltbeverage_microbreweries:hover
+{
+  background:url('../../../assets/Images/manufacturing/maltbeverage_microbreweries_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.meatpreparedfrozen
+{
+  background:url('../../../assets/Images/manufacturing/meatpreparedfrozen.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.meatpreparedfrozen:hover
+{
+  background:url('../../../assets/Images/manufacturing/meatpreparedfrozen_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.meatpreparedpackaging
+{
+  background:url('../../../assets/Images/manufacturing/meatpreparedpackaging.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.meatpreparedpackaging:hover
+{
+  background:url('../../../assets/Images/manufacturing/meatpreparedpackaging_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.milkmanufacturingdry
+{
+  background:url('../../../assets/Images/manufacturing/milkmanufacturingdry.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.milkmanufacturingdry:hover
+{
+  background:url('../../../assets/Images/manufacturing/milkmanufacturingdry_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.milkmanufacturingfluid
+{
+  background:url('../../../assets/Images/manufacturing/milkmanufacturingfluid.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.milkmanufacturingfluid:hover
+{
+  background:url('../../../assets/Images/manufacturing/milkmanufacturingfluid_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.nuts_seeds
+{
+  background:url('../../../assets/Images/manufacturing/macaroni_cappellinietc.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.nuts_seeds:hover
+{
+  background:url('../../../assets/Images/manufacturing/nuts_seeds_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.other
+{
+  background:url('../../../assets/Images/manufacturing/other.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.other:hover
+{
+  background:url('../../../assets/Images/manufacturing/other_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.preparedmeals_desserts
+{
+  background:url('../../../assets/Images/manufacturing/preparedmeals_desserts.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.preparedmeals_desserts:hover
+{
+  background:url('../../../assets/Images/manufacturing/preparedmeals_desserts_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.txtright
+{
+    text-align: right;
+}
+.main-content
+{
+    /* padding:0px 30px 0px 30px; */
+    width:90%;
+    font:normal 16px 'Roboto', sans-serif;
+    color:#7f7e7e;
+    font-weight: 300;
+    height: 130vh;
+    overflow-y: scroll;
+}
+.main-content label{
+    color:#4D4C4C;
+    font-size:16px;
+    font-weight: 500;
+}
+.main-content h3{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:#000;
+    font-family:'Roboto', sans-serif;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+  background-color: #F5F5F5;
+  background-clip: content-box;   
+   border: 4px solid transparent;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #e5e5e5;
+}
+.margin-bottom-10
+{
+    margin-bottom: 10px;
+}
+.margin-top-30
+{
+    margin-top:30px;
+}
+.industry_icons input[type="checkbox"]
+{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  visibility: hidden;
+  margin-top:10px;
+  float:right;
+}
+.industry_icons input[type=checkbox]:after {
+  content: " ";
+  background-color: #fff;
+  display: inline-block;
+  /* margin-left: 10px; */
+  padding-bottom: 5px;
+  color: #00BFF0;
+  width: 20px;
+  height: 20px;
+  visibility: visible;
+  border: 1px solid #00BFF0;
+  padding-left: 3px; 
+  border-radius: 3px;
+}
+.industry_icons input[type=checkbox]:checked:after {
+  content: "\2714";
+  padding: -5px;
+  font-weight: bold;
+  font-size:12px;
+  color: #fff;
+  border: 1px solid #0097d6;
+  background:#0097d6;
+}
+.industry_icons .col
+{
+    margin:5px;
+}

@@ -1,0 +1,150 @@
+<div class="row contentHeader">
+  <div class="col-sm-6 col ">
+    <div class="contentTitle">Business Information</div>
+    <div class="contentSubtitle">What is your Industry and Profession?</div>
+  </div>
+  <div class="col-sm-6 col custom-progress-bar">
+    <app-progressbar></app-progressbar>
+  </div>
+</div>
+<div class="main-content ">
+  <div class="container-fluid">
+    <div class="row margin-bottom-10 margin-top-30">
+      <div class="col-6">
+        <div class="form-group business-form">
+          <label for="">Federal Employer ID <span class="required">*</span></label>
+          <input type="text" placeholder="12-123456789">
+        </div>
+      </div>
+      <div class="col-6 txtright"><label>Client ID:</label> 3305165638</div>
+    </div>
+    <hr>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-6">
+        <div class="form-group business-form">
+          <label for="">Name of Business</label>
+          <input type="text" placeholder="Cathy Candy Manufactures Inc.">
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div class="form-group business-form">
+          <label for="">DBA</label>
+          <input type="text" placeholder="Cathy CC">
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-3">
+        <div class="form-group business-form">
+          <label for="">Business start Date  <span class="required">*</span></label>
+          <input type="text" placeholder="05/11/1989" class="date">
+        </div>
+      </div>
+      <div class="col-3 ">
+        <div class="form-group business-form">
+          <label for="">Years in operation  <span class="required">*</span></label>
+          <input type="text" placeholder="28">
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div class="form-group business-form">
+          <label for="">Registration type <span class="required">*</span></label>
+           <select class="form-control" formControlName="state" [(ngModel)]="state">
+              <option selected [value]="state">{{state}}</option>
+            </select>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-6">
+        <div class="form-group business-form">
+          <h4>Employees</h4>
+          <label class="light">How many people work for your business?
+(total staff, including yourself, owners, officers,
+employees, and contractors)<span class="required">*</span></label>
+          <input type="text" placeholder="15">
+        </div>
+      </div>
+      <div class="col-6 ">
+        <div class="form-group business-form">
+          <h4>&nbsp;</h4>
+          <label class="light">Of these 15 people, how many are owners or officers? (Assume 15% of employees are Owners and Default
+the Value)</label>
+          <input type="text" placeholder="">
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-10">
+          <label for="">Does any of your business involve subcontracting work to others?</label> 
+      </div>
+      <div class="col-2 txtright">
+         <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch1" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-3">
+        <div class="form-group business-form">
+          <h4>Vehicles</h4>
+          <label class="light">No of Vehicles to insure</label>
+          <input type="text" placeholder="3">
+        </div>
+      </div>
+      <div class="col-5 ">
+        <div class="form-group business-form">
+          <h4>&nbsp;</h4>
+          <label class="light">Date  you would like your coverage to start?  <span class="required">*</span></label>
+          <input type="text" placeholder="06/01/2018" class="date">
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-3">
+        <div class="form-group business-form">
+          <h4>Financial Information</h4>
+          <label class="light">What will your revenue be for the next fiscal year? (projected)</label>
+          <input type="text" placeholder="$200,000" >
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="form-group business-form">
+          <h4>&nbsp;</h4>
+          <label class="light">What is your revenue for the current fiscal year? (current revenue)  <span class="required">*</span></label>
+          <input type="text" placeholder="$190,000" >
+        </div>
+      </div>
+      <div class="col-3">
+         <div class="form-group business-form">
+          <h4>&nbsp;</h4>
+          <label class="light">What was your revenue in the prior fiscal year? (prior revenue)</label>
+          <input type="text" placeholder="$180,000" >
+        </div>
+      </div>
+      <div class="col-3">
+         <div class="form-group business-form">
+          <h4>&nbsp;</h4>
+          <label class="light">What percentage of your sales are generated over the Internet?</label>
+          <input type="text" placeholder="30%">
+        </div>
+      </div>
+    </div>
+       <div class="row margin-bottom-20 margin-top-30">
+      <div class="col-6">
+        <div class="form-group business-form">
+          <h4>Annual Payroll</h4>
+          <label class="light">What is the total annual payroll for your entire office?</label>
+          <input type="text" placeholder="$67000" class="width200">
+        </div>
+      </div>
+      <div class="col-6"></div>
+    </div>
+  </div>
+</div>
+<app-dashboardfooter [orderNo]="orderNo"></app-dashboardfooter>

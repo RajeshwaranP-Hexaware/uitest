@@ -1,0 +1,113 @@
+<div class="row contentHeader">
+  <div class="col-sm-6 col ">
+    <div class="contentTitle">Discover</div>
+    <div class="contentSubtitle">Please mention your zip code</div>
+  </div>
+  <div class="col-sm-6 col custom-progress-bar">
+    <app-progressbar></app-progressbar>
+  </div>
+</div>
+<div class="contentSection" *ngIf="!clientLocationAndDetailsActive">
+  <form [formGroup]="ZipCodeForm">
+    <div class=" row zip-verify-section">
+      <div class="col-sm-6 col">
+        <div class="row form-group mb-3">
+          <label class="col-sm-12 col center-block text-font">Zip Code
+        <input type="text" maxlength="5" autofocus class="form-control" formControlName="zipCode" [(ngModel)]="zipCode" placeholder="Enter Zipcode" aria-label="Entger Zipcode" aria-describedby="basic-addon2" [class.ng-touched.ng-invalid]="errorCheck"  required>
+    </label>
+          <div class="alert alert-danger" *ngIf="errorCheck">Incorrect Zipcode
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col submit-button">
+        <button class="btn btn-outline-secondary" (click)="ZipCodeSubmit()" type="button">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="contentSection" *ngIf="clientLocationAndDetailsActive">
+  <form class="row" [formGroup]="ClientDetailsLocationForm" (ngSubmit)="ClientDetailsLocationFormSubmit()">
+
+    <div class="col-sm-6 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">Business Name
+           <input class="form-control" formControlName="businessName" [(ngModel)]="businessName">
+          </label>
+
+      </div>
+    </div>
+    <div class="col-sm-6 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">DBA
+            <input class="form-control" formControlName="dba" [(ngModel)]="dba">
+          </label>
+
+      </div>
+    </div>
+    <div class="col-sm-12 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">Is this home based business</label>
+        <div class="onoffswitch1">
+          <input type="checkbox" name="onoffswitch1" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-bold">Primary Business Address</label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">House/ Suite Number/Floor
+            <input class="form-control" formControlName="houseNumber" [(ngModel)]="houseNumber">
+          </label>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">House/ Suite Number/Floor
+            <input class="form-control" formControlName="address1" [(ngModel)]="address1">
+          </label>
+      </div>
+    </div>
+    <div class="col-sm-12 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block  text-font">Address Line 2
+            <input class="form-control" formControlName="address2" [(ngModel)]="address2">
+          </label>
+      </div>
+    </div>
+    <div class="col-sm-6 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">State
+            <select class="form-control" formControlName="state" [(ngModel)]="state">
+              <option selected [value]="state">{{state}}</option>
+            </select>
+          </label>
+
+      </div>
+    </div>
+    <div class="col-sm-6 col">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-font">City
+            <select class="form-control" formControlName="city" [(ngModel)]="city">>
+              <option selected [value]="city">{{city}}</option>
+            </select>
+          </label>
+      </div>
+    </div>
+    <div class="col-sm-12 col align-right">
+      <div class="form-group">
+        <label class="col-sm-12 col center-block text-blue-link">+ ADD ANOTHER LOCATION</label>
+      </div>
+    </div>
+  </form>
+</div>
+<app-dashboardfooter [orderNo]="orderNo"></app-dashboardfooter>

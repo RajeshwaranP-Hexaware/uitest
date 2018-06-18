@@ -1,0 +1,211 @@
+/* You can add global styles to this file, and also import other style files */
+.parentContainer {
+    position: relative;
+  }
+  
+  .container-fluid .row .titleContainer {
+    padding: 40px 0px 40px 30px;
+    font: bold 24px 'Roboto', serif;
+    color: #0097D6;
+  }
+  
+  .backdrops {
+    min-height: 1140px;
+  }
+  
+  .backdropContainer_1 {
+    background-color: #efefef;
+  }
+  
+  .backdropContainer_2 {
+    background-color: #003768;
+  }
+  
+  .mainContainer {
+    position: absolute;
+    width: 1300px;
+    margin: 134px 0 30px 30px;
+  }
+  
+  .contentContainer {
+    width: 900px;
+    background-color: #fff;
+    height: 1099px !important;
+    padding: 0px;
+    border-radius: 10px;
+    margin-left:0px !important;
+  }
+  
+  .popupContainer {
+    position: relative;
+  }
+  
+  .tabsContainer {
+    position: absolute;
+    right: 0px;
+  }
+  
+  
+  .tab-content {
+    padding: 35px 0 35px 25px;
+    color: #688b9b;
+  }
+  
+  .tab-content:first-child {
+    margin-top: 115px;
+  }
+  
+  .tab-content:nth-child(2) {
+    color: #fff;
+  }
+  
+  .tab-title {
+    font: bold 24px 'Roboto', serif;
+    margin-bottom: 20px;
+  }
+  
+  .tab-subtitle {
+    font: normal 16px 'Roboto', serif;
+  }
+  
+  .tab-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: -24px;
+    border-radius: 48px;
+    background-color: #e5e5e5;
+    font: normal 20px 'Roboto', serif;
+    padding:10px 10px 10px 20px;
+  }
+  
+  .tab-content:nth-child(1) .tab-icon {
+    background-color: #0097d6;
+    color:#fff;
+  }
+  
+  .tab-content:nth-child(2) .tab-icon {
+    background-color: #0097d6;
+  }
+  
+  .contentHeader {
+    border-bottom: 1px solid #e5e5e5;
+    height: 133px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .contentFooter {
+    min-height: 110px;
+    background-color: #fcfcfc;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .contentTitle {
+    font: bold 24px 'Roboto', serif;
+    margin: 30px 0 20px 30px;
+    color: #4D4C4C;
+  }
+  
+  .contentSubtitle {
+    font: normal 16px 'Roboto', serif;
+    margin: 0 0 30px 30px;
+    color: #aab0b2;
+  }
+  
+  .cancel-button {
+    color: #0097D6
+  }
+  
+  .save-next-button {
+    height: 50px;
+    background-color: #0097D6;
+  }
+  
+  .step-ball {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  
+  .step-ball:nth-child(1) {
+    border: 1px solid #0097D6;
+    background-color: #0097D6;
+  }
+  
+  .custom-progress-bar {
+    border-left: 1px solid #e5e5e5;
+  }
+  
+  .progress-title {
+    font: bold 20px 'Roboto', serif;
+    margin: 30px;
+    color: #4D4C4C;
+  }
+  
+  .progress-block {
+    margin: 30px;
+  }
+  
+  .zip-verify-section {
+    width: 40%;
+    margin: 184px auto;
+  }
+  
+  .input-group-append {margin-left: 10px;}
+  
+  .client-id {
+    font: bold 16px 'Roboto', serif;
+    color: #7f7e7e;
+  }
+  
+  .text-font {
+    font: bold 16px 'Roboto', serif;
+    color: #7f7e7e;
+    margin: 0;
+  }
+  
+  
+  .contentSection {
+    margin: 30px;
+  }
+  .text-blue-link{
+    font: bold 16px 'Roboto', serif;
+    color: #0097d6;
+    margin: 0px 0 40px 0;
+  }
+  .align-right {
+      text-align: right;
+  }
+  
+  .text-bold{
+    font: bold 18px 'Roboto', serif;
+    color: #4d4c4c;
+    margin: 40px 0 40px 0;
+  }
+  .form-group{
+      margin-bottom:0px;
+  }
+  input,select, button{
+      margin:20px 0 40px 0;
+      height:50px;
+  }
+  .submit-button{
+      margin-top:20px;
+  }
+
+  .insruanceFirst{
+    font:14px 'Roboto', serif !important;
+  }

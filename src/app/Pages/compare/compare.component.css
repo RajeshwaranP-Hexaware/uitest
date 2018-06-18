@@ -1,0 +1,505 @@
+.contentHeader {
+    border-bottom: 1px solid #e5e5e5;
+    height: 133px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contentTitle {
+    font: bold 24px 'Roboto', sans-serif;
+    margin: 30px 0 20px 30px;
+    color: #4D4C4C;
+  }
+
+  .contentSubtitle {
+    font: normal 16px 'Roboto', sans-serif;
+    margin: 0 0 30px 30px;
+    color: #aab0b2;
+  }
+.padding-left-30
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+.agri
+{
+  background:url('../../../assets/Images/industry/agriculture.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.agri:hover
+{
+  background:url('../../../assets/Images/industry/agriculture_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.construction
+{
+  background:url('../../../assets/Images/industry/construction.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.construction:hover
+{
+  background:url('../../../assets/Images/industry/construction_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.consulting
+{
+  background:url('../../../assets/Images/industry/consulting.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.consulting:hover
+{
+  background:url('../../../assets/Images/industry/consulting_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.education
+{
+  background:url('../../../assets/Images/industry/education.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.education:hover
+{
+  background:url('../../../assets/Images/industry/education_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.finance
+{
+  background:url('../../../assets/Images/industry/finance.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.finance:hover
+{
+
+  background:url('../../../assets/Images/industry/finance_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.food
+{
+  background:url('../../../assets/Images/industry/food_accommodation.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:70%;
+}
+.food:hover
+{
+
+  background:url('../../../assets/Images/industry/food_accommodation_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:70%;
+}
+.healthcare
+{
+  background:url('../../../assets/Images/industry/healthcare.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.healthcare:hover
+{
+  background:url('../../../assets/Images/industry/healthcare_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.realestate
+{
+  background:url('../../../assets/Images/industry/real_estate.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.realestate:hover
+{
+  background:url('../../../assets/Images/industry/real_estate_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.sports
+{
+  background:url('../../../assets/Images/industry/sports.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.sports:hover
+{
+  background:url('../../../assets/Images/industry/sports_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.transportation
+{
+  background:url('../../../assets/Images/industry/transportation.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.transportation:hover
+{
+  background:url('../../../assets/Images/industry/transportation_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.aerospace
+{
+  background:url('../../../assets/Images/profession/aerospace.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.aerospace:hover
+{
+  background:url('../../../assets/Images/profession/aerospace_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.automotive
+{
+  background:url('../../../assets/Images/profession/automotive.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.automotive:hover
+{
+  background:url('../../../assets/Images/profession/automotive_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.computers
+{
+  background:url('../../../assets/Images/profession/computers.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.computers:hover
+{
+  background:url('../../../assets/Images/profession/computers_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.consumer
+{
+  background:url('../../../assets/Images/profession/consumer.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.consumer:hover
+{
+  background:url('../../../assets/Images/profession/consumer_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.food_beverages
+{
+  background:url('../../../assets/Images/profession/food_beverages.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.food_beverages:hover
+{
+  background:url('../../../assets/Images/profession/food_beverages_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:50%;
+}
+.furniture
+{
+  background:url('../../../assets/Images/profession/furniture.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:45%;
+}
+.furniture:hover
+{
+  background:url('../../../assets/Images/profession/furniture_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:45%;
+}
+.health
+{
+  background:url('../../../assets/Images/profession/health.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.health:hover
+{
+  background:url('../../../assets/Images/profession/health_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:35%;
+}
+.lighting
+{
+  background:url('../../../assets/Images/profession/lighting.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.lighting:hover
+{
+  background:url('../../../assets/Images/profession/lighting_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:40%;
+}
+.mechanical
+{
+  background:url('../../../assets/Images/profession/mechanical.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.mechanical:hover
+{
+  background:url('../../../assets/Images/profession/mechanical_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:55%;
+}
+.wood_paper
+{
+  background:url('../../../assets/Images/profession/wood_paper.svg') center no-repeat;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.wood_paper:hover
+{
+  background:url('../../../assets/Images/profession/wood_paper_hover.svg') center no-repeat #0097d6;
+  border:1px solid #c6cacb;
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-size:60%;
+}
+.industry_icons label
+{
+  color:#0097d6;
+  font-size:16px;
+  text-align: center;
+  bottom: 5%;
+  position: absolute;
+   left: 30%;
+   font-weight: 400;
+   font-family:'Roboto';
+}
+.agri label:hover
+{
+  color:#fff;
+  font-size:16px;
+  text-align: center;
+  margin:110px 50px;
+}
+.industry_icons .col
+{
+    margin:5px;
+}
+.txtright
+{
+    text-align: right;
+}
+.main-content
+{
+    /* padding:0px 30px 0px 30px; */
+    width:90%;
+    font:normal 16px 'Roboto', sans-serif;
+    color:#7f7e7e;
+    font-weight: 300;
+    height: 130vh;
+    overflow-y: scroll;
+}
+.main-content label{
+    color:#4D4C4C;
+    font-size:16px;
+    font-weight: 500;
+}
+.main-content h3{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:#000;
+    font-family:'Roboto', sans-serif;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+  background-color: #F5F5F5;
+  background-clip: content-box;   
+   border: 4px solid transparent;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #e5e5e5;
+}
+
+.margin-bottom-10
+{
+    margin-bottom: 10px;
+}
+.margin-top-30
+{
+    margin-top:30px;
+}
+
+.border-class {
+    border : 1px solid black
+}

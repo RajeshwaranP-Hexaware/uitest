@@ -1,0 +1,103 @@
+<div class="row contentHeader">
+  <div class="col-sm-6 col ">
+    <div class="contentTitle">Business Information</div>
+    <div class="contentSubtitle">What is your Industry and Profession?</div>
+  </div>
+  <div class="col-sm-6 col custom-progress-bar">
+    <app-progressbar></app-progressbar>
+  </div>
+</div>
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row margin-bottom-40 margin-top-30">
+      <div class="col-6">
+      </div>
+      <div class="col-6 txtright"><label>Client ID:</label> 3305165638</div>
+    </div>
+  </div>
+  <div class="container-fluid main-content">
+    <div class="row margin-bottom-20">
+      <div class="col-12 bold">
+        Below are the recommended coverage types based on the client risk profile and business line
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 bold margin-bottom-30">
+        Please select all coverage types that apply <span class="required">*</span>
+      </div>
+    </div>
+    <div class="row margin-bottom-50">
+      <div class="col-9 ">
+        Business owners policy (Property & general Liability)
+      </div>
+      <div class="col-3">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch1" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-50">
+      <div class="col-9">
+        Hired and non-owned auto liability (Coverage for vehicles not titled to your business)
+      </div>
+      <div class="col-3">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch2" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-50">
+      <div class="col-9">
+        Commercial Auto Liability (for vehicles titled to your business)
+      </div>
+      <div class="col-3">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch3" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-50">
+      <div class="col-9">
+        Worker's compensation
+
+      </div>
+      <div class="col-3">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch4" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+    <div class="row margin-bottom-50">
+      <div class="col-9">
+        Umbrella (Excess Liability)
+      </div>
+      <div class="col-3">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch5" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
+          <label class="onoffswitch1-label" for="myonoffswitch1">
+                <span class="onoffswitch1-inner"></span>
+                <span class="onoffswitch1-switch"></span>
+            </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-dashboardfooter [orderNo]="orderNo"></app-dashboardfooter>
