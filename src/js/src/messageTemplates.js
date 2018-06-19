@@ -23,9 +23,6 @@ define(["utils", "settings"], function (utils, settings) {
     }
     //User Plain Text
     methods.userplaintext = (data) => {
-        if(data.payload.indexOf('class="pdfClass"') != -1){
-            data.payload = data.payload.replace('class="pdfClass"','class="pdfClass" style="color:#337ab7"')
-        }
         let html = `<li class="list-group-item background-color-custom">
             <div class="media-left pull-right animated fadeInRight">
 
@@ -43,6 +40,9 @@ define(["utils", "settings"], function (utils, settings) {
 
     //Plain Text Template
     methods.plaintext = (data) => {
+        if(data.payload.indexOf('class="pdfClass"') != -1){
+            data.payload = data.payload.replace('class="pdfClass"','class="pdfClass" style="color:#337ab7 !important"')
+        }
         let html = `<li class="list-group-item background-color-custom">
        
         <div class="media-body bot-txt-space animated fadeInLeft">`
