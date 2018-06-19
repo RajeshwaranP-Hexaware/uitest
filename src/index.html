@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>BOTPoc</title>
@@ -7,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -23,11 +24,12 @@
   <script src="js/require.js" type="text/javascript" data-main="js/require-setup"></script>
 
 </head>
+
 <body>
   <app-root></app-root>
-  
+
   <script>	
-    function bindJS() {				
+    function bindJS() {
       $('.chat-body').css('height', (window.innerHeight - 140) + 'px')
       $('.main-container').css('opacity', '1');
       //hide emoji popover on outside click
@@ -58,56 +60,45 @@
         }
       });
     }
-	
+
     require(['lib/jquery.min'], function () {
       require(['lib/bootstrap.min'], function () {
         require(['lib/propeller'], function () {
           require(['src/app'], function () {
-			$(document).ready(function(){				
-        // window.emojiPicker = new EmojiPicker({
-        //   emojiable_selector: '[data-emojiable=true]',
-        //   assetsPath: '/assets/Images/img',
-        //   popupButtonClasses: 'fa fa-smile-o'
-        // });
-        // window.emojiPicker.discover();
+            $(document).ready(function () {
+              // window.emojiPicker = new EmojiPicker({
+              //   emojiable_selector: '[data-emojiable=true]',
+              //   assetsPath: '/assets/Images/img',
+              //   popupButtonClasses: 'fa fa-smile-o'
+              // });
+              // window.emojiPicker.discover();
 
-				$("#webChat").on("click", function (e) {
-				  e.preventDefault();
-				  $(".chatPopup").toggleClass("chatOpen");
-				  $(".emoji-wysiwyg-editor").removeClass("w90");
-				  $(".chatPopup").removeClass("w800");
-				})
-				$(".close-icon-close").click(function () {
-				  $(".chatPopup").removeClass("chatOpen");
-				  $(".chatPopup").removeClass("w800");
-        })
-        
-        $('.maxi').click(function () {
-				  $(".chatPopup").toggleClass("w800");
-				  //$(".emoji-wysiwyg-editor").toggleClass("w90");
-          $(".maxi").removeClass("visible");
-          $(".maxi").addClass("invisible");
-          $(".mini").removeClass("invisible");
-				  $(".mini").addClass("visible");
-        });
-        
-        $('.mini').click(function () {
-				  $(".chatPopup").toggleClass("w800");
-				  //$(".emoji-wysiwyg-editor").toggleClass("w90");
-				  $(".mini").removeClass("visible");
-          $(".mini").addClass("invisible");
-          $(".maxi").removeClass("invisible");
-				  $(".maxi").addClass("visible");
-        });
+              $("#webChat").on("click", function (e) {
+                e.preventDefault();
+                $(".chatPopup").toggleClass("chatOpen");
+                $(".emoji-wysiwyg-editor").removeClass("w90");
+                $(".chatPopup").removeClass("w800");
+              })
+              $(".close-icon-close").click(function () {
+                $(".chatPopup").removeClass("chatOpen");
+                $(".chatPopup").removeClass("w800");
+              })
 
-				// $('.close-icon-expand').click(function () {
-				//   $(".chatPopup").toggleClass("w800");
-				//   $(".emoji-wysiwyg-editor").toggleClass("w90");
-				//   $(".maxi").toggleClass("hidden");
-				//   $(".mini").toggleClass("hidden");
-				// });
-			});		
-            bindJS()			
+              $('.maxi').click(function () {
+                $(".chatPopup").toggleClass("w800");
+                //$(".emoji-wysiwyg-editor").toggleClass("w90");
+                $(".maxi").addClass("hideMe");
+                $(".mini").removeClass("hideMe");
+              });
+
+              $('.mini').click(function () {
+                $(".chatPopup").toggleClass("w800");
+                //$(".emoji-wysiwyg-editor").toggleClass("w90");
+                $(".mini").addClass("hideMe");
+                $(".maxi").removeClass("hideMe");
+              });
+            });
+            bindJS()
           });
         });
       });
@@ -118,7 +109,7 @@
     <div class="modal-dialog modal">
 
       <!-- Modal content-->
-      <div class="modal-content" style="width: 610px; height: 500px">
+      <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Discount Chart</h4>
@@ -144,8 +135,8 @@
       </div>
       <div class="col-6">
         <img src="./assets/Images/close.svg" id="#closeChat" class="img-responsive close-icon-close">
-        <img src="./assets/Images/Maximize.svg" class="img-responsive close-icon-expand maxi visible">
-        <img src="./assets/Images/Minimize.svg" class="img-responsive close-icon-expand mini invisible">
+        <img src="./assets/Images/Maximize.svg" class="img-responsive close-icon-expand maxi">
+        <img src="./assets/Images/Minimize.svg" class="img-responsive close-icon-expand mini hideMe">
         <!-- style="padding-top: 10%; max-width: 75px;" -->
       </div>
     </div>
@@ -164,13 +155,12 @@
       <div class="col-12" style="margin-top: 10px">
         <div class="form-group pmd-textfield pmd-textfield-floating-label">
           <div class="input-group textAreaSetUp">
-            <textarea placeholder="Search for..." data-emojiable="true" rows="2" id="btn-input" class="col-10 newclass"
-             required maxlength="1500"></textarea>
+            <textarea placeholder="Search for..." data-emojiable="true" rows="2" id="btn-input" class="col-10 newclass" required maxlength="1500"></textarea>
           </div>
           <div class="input-group-addon navigationSetUp">
-              <a id="btn-send-message" class="send-button">
-                <img src="./assets/Images/Send.svg" width="30" height="30">
-              </a>
+            <a id="btn-send-message" class="send-button">
+              <img src="./assets/Images/Send.svg" width="30" height="30">
+            </a>
           </div>
         </div>
       </div>
@@ -178,10 +168,11 @@
   </div>
 
   <div>
-    <a class="popover footDiv" id="webChat"  data-toggle="popover">
+    <a class="popover footDiv" id="webChat" data-toggle="popover">
       <img src="assets/Images/Chaticon.svg" width="72" height="72" style="margin-top: 10px;margin-left: -10px">
     </a>
   </div>
-  
-  </body>
+
+</body>
+
 </html>

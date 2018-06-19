@@ -802,7 +802,7 @@ iframe#_hjRemoteVarsFrame {
 }
 
 .w800 {
-  width: 800px;
+  width: 800px !important;
 }
 
 .textAreaSetUp {
@@ -818,4 +818,8 @@ iframe#_hjRemoteVarsFrame {
 
 .modalOpacity {
   opacity: 1 !important
+}
+
+.hideMe {
+  display: none;
 }
