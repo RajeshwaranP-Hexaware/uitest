@@ -14,7 +14,7 @@
         "js/lib",
         "favicon.ico"
       ],
-      "emojiPicker" : "js/lib/emoji-picker",
+      "EmojiPicker" : "assets/Scripts/emoji-picker",
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",

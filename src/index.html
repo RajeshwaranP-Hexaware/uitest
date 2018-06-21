@@ -19,8 +19,6 @@
   <!-- Propeller css -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
   <script src="js/require.js" type="text/javascript" data-main="js/require-setup"></script>
 
 </head>
@@ -65,6 +63,7 @@
       require(['lib/bootstrap.min'], function () {
         require(['lib/propeller'], function () {
           require(['src/app'], function () {
+
             $(document).ready(function () {
               // window.emojiPicker = new EmojiPicker({
               //   emojiable_selector: '[data-emojiable=true]',
@@ -72,7 +71,6 @@
               //   popupButtonClasses: 'fa fa-smile-o'
               // });
               // window.emojiPicker.discover();
-
               $("#webChat").on("click", function (e) {
                 e.preventDefault();
                 $(".chatPopup").toggleClass("chatOpen");
@@ -106,13 +104,13 @@
   </script>
 
   <div id="fundModal" class="modal fade modalOpacity" role="dialog">
-    <div class="modal-dialog modal">
+    <div class="modal-dialog modal" style="width: 40%;top: 24%;">
 
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Discount Chart</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
 
